@@ -2,6 +2,8 @@ public class Usuario {
 
     private String nome;
     private Integer id;
+    private String login;
+    private String senha;
     /**
      * @return String return the nome
      */
@@ -28,6 +30,35 @@ public class Usuario {
      */
     public void setId(Integer id) {
         this.id = id;
+    }
+
+
+    /**
+     * @return String return the login
+     */
+    public String getLogin() {
+        return login;
+    }
+
+    /**
+     * @param login the login to set
+     */
+    public void setLogin(String login) {
+        this.login = login;
+    }
+
+    /**
+     * @return String return the senha
+     */
+    public String getSenha() {
+        return senha;
+    }
+
+    /**
+     * @param senha the senha to set
+     */
+    public void setSenha(String senha) {
+        this.senha = senha;
     }
 
 }
